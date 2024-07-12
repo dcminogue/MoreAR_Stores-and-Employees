@@ -1,3 +1,4 @@
 class Employee < ActiveRecord::Base
-
-end
+    belongs_to :store
+  end
+  
